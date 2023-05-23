@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Mono:wght@700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	}
+	.wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	font-family: 'Roboto Mono', monospace;
+	background-image: url(https://images.unsplash.com/photo-1562814830-8286a3397045?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80);
+	}
+	.card{
+		background:rgba(225, 245, 248, 0.836);
+		color: rgb(4, 65, 105);
+		padding: 1.5rem;
+		border-radius: 30px;
+		width: 100%;
+		max-width: 420px;
+		margin: 1rem;
+		opacity: 0.8;
+		animation: mymove 4s infinite;
+		}
+		@keyframes mymove {
+			50% {box-shadow: -20px -20px 120px whitesmoke}
+			
+		}
+		.search{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		}
+		.search button{
+		margin: 1rem;
+		border-radius: 50%;
+		border: none;
+		height: 2.5rem;
+		width: 2.5rem;
+		outline: none;
+		background-color: #689bbd;
+		color: white;
+		}
+		.search button:hover{
+		background-color: whitesmoke;
+		cursor: pointer;
+		transition: 0.2s ease-in-out;
+		}
+		input.search-bar {
+		border: none;
+		outline: none;
+		padding: 1rem 1rem;
+		border-radius: 50px;
+		width: 15rem;
+		height: 2.5rem;
+		background-color: #689bbd;
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 100%;
+		}
+		.description{
+		text-transform: capitalize;
+		}
+		.left{
+            text-align-last: left;
+            font-weight: bold;
+            font-family: 'Open Sans', sans-serif;
+            font-size:20px;
+            color:rgb(4, 65, 105);
+		}
+		.right{
+            text-align-last: right;
+            font-weight: bold;
+            font-family: 'Open Sans', sans-serif;
+            font-size:20px;
+            color:rgb(4, 65, 105);
+            margin-top: 20px;
+      }
+.im{
+  margin-left: 10px;
+
+}
+h1.temp{
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'Roboto Mono', monospace;
+}
+.weather{
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+.date{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin-top: 40px;
+	font-weight:bold;
+	color: rgb(4, 65, 105);
+}
